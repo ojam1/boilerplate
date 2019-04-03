@@ -1,0 +1,21 @@
+{
+  "name": "",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/server.js",
+  "scripts": {
+    "dev": "nodemon --exec babel-node src/server.js",
+    "start": "node src/server.js",
+    "test": "jest --config=jest.config.json --watch",
+    "build:dev": "webpack -wd --env development",
+    "build:prod": "webpack -p --env production"
+  },
+  "babel": {
+    "presets": [
+      "@babel/preset-react",
+      "@babel/preset-env"
+    ]
+  },
+  "author": "Oliver Ranson",
+  "license": "MIT"
+}
