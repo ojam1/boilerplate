@@ -1,4 +1,5 @@
 import thunk from 'redux-thunk';
+import { createStore, combineReducers, applyMiddleware } from 'redux';
 
 
 export default () => {
