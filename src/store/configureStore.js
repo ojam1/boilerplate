@@ -4,8 +4,7 @@ import { applyMiddleware, combineReducers, compose, createStore } from 'redux';
 
 export default () => {
   const store = createStore(
-    combineReducers({
-    }),
+    combineReducers({}),
     compose(
       applyMiddleware(thunk),
       window.__REDUX_DEVTOOLS_EXTENSION__ &&
