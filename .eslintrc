@@ -17,5 +17,11 @@
       "jsx": true
     },
     "sourceType": "module"
+  },
+  "rules": {
+    "no-console": "warn",
+    "react/prop-types": "error",
+    "react/destructuring-assignment": "error",
+    "react/no-deprecated": "error"
   }
 }
