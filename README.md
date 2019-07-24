@@ -3,5 +3,5 @@ yarn add --dev babel-eslint enzyme enzyme-adapter-react-16 eslint eslint-config-
 ```
 
 ```
-yarn add @babel/cli @babel/core @babel/node @babel/preset-env @babel/preset-react babel-loader express nodemon react react-dom react-redux redux redux-thunk webpack webpack-cli
+yarn add @babel/cli @babel/core @babel/node @babel/preset-env @babel/preset-react babel-loader express nodemon react react-dom react-redux redux redux-thunk webpack webpack-cli prop-types
 ```
